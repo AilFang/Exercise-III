@@ -186,20 +186,78 @@ body{
 /* Style the falling images */
 .falling-image {
   position: absolute;
-  top: 250px;
-  animation: fall 3s linear infinite;
+  top: 450px;
+  animation: fall 1.5s linear infinite;
 }
 
+.falling-image1 {
+  position: absolute;
+  top: 250px;
+  animation: fall 1.5s linear infinite;
+  animation-delay: .2s;
+}
+.falling-image2 {
+  position: absolute;
+  top: 650px;
+  animation: fall 1.5s linear infinite;
+  animation-delay: .5s;
+}
+
+.falling-image3 {
+  position: absolute;
+  top: 1050px;
+  animation: fall 1.5s linear infinite;
+  animation-delay: .5s;
+}
+.falling-image4 {
+  position: absolute;
+  top: 550px;
+  animation: fall 1.5s linear infinite;
+  animation-delay: .7s;
+}
 /* Define the falling animation */
 @keyframes fall {
   0% {
-    transform: translateY(-100%);
-    opacity: 1;
+    opacity: 0; /* Start with zero opacity (hidden) */
+    transform: translateY(0); /* Start with no vertical movement */
+  }
+  50% {
+    opacity: 1; /* Show the image (fully visible) at the halfway point */
+    transform: translateY(100px); /* Move down by 100 pixels */
   }
   100% {
-    transform: translateY(100%);
-    opacity: 0;
+    opacity: 0; /* End with complete transparency (fully faded out) */
+    transform: translateY(400px); /* Move down by 200 pixels (additional 100 pixels) */
+  }
+}
+/*
+@keyframes show {
+  100% {
+    opacity: 0; /* Start with zero opacity (hidden) 
+ 
+  }
+  0% {
+    opacity: 1; /* End with complete transparency (fully faded out) 
+  }
+  
+}
+@keyframes drop {
+  0% {
+    transform: translateY(0); /* Start with no vertical movement 
+  }
+  100% {
+    transform: translateY(400px); /* Move down by 200 pixels (additional 100 pixels) 
   }
 }
 
+.show-image{
+  position: absolute;
+  top: 350px;
+  animation: show 3s linear infinite;
+}
 
+.go-image{
+  animation: drop 1.5s linear infinite;
+  animation-delay: 4s;
+}
+*/
