@@ -56,7 +56,7 @@ letter-spacing: -0.039em;
 mix-blend-mode: normal;
 
 }
-
+/* The imgage before  */
 .blur{
     position:relative; left:650px; top:100px
 }
@@ -120,14 +120,10 @@ text-align: center;
 letter-spacing: 0.005em;
 color: #FFFFFF;
 }
-/*
-body{
-  background: linear-gradient(to top, black 50%, white 50%);
-}
-*/
+
 .black{
   background-color:black;
-  height: 2000px;
+  height: 2900px;
   margin-left: -10px;
   margin-bottom: -10px;
   margin-right: -10px;
@@ -137,43 +133,53 @@ body{
 
 .vl1{
   border-left: 6px dotted lightgrey;
-  height: 1805px;
+  height: 2205px;
   position: absolute;
   left: 5%;
   margin-left: -3px;
   top: 2015px;
+  filter: brightness(30%);
+  
 }
 .vl2{
   border-left: 6px dotted lightgrey;
-  height: 1805px;
+  height: 2205px;
   position: absolute;
   left: 27.5%;
   margin-left: -3px;
   top: 2015px;
+  filter: brightness(30%);
+
 }
 .vl3{
   border-left: 6px dotted lightgrey;
-  height: 1805px;
+  height: 2205px;
   position: absolute;
   left: 50%;
   margin-left: -3px;
   top: 2015px;
+  filter: brightness(30%);
+
 }
 .vl4{
   border-left: 6px dotted lightgrey;
-  height: 1805px;
+  height: 2205px;
   position: absolute;
   left: 72.5%;
   margin-left: -3px;
   top: 2015px;
+  filter: brightness(30%);
+
 }
 .vl5{
   border-left: 6px dotted lightgrey;
-  height: 1805px;
+  height: 2205px;
   position: absolute;
   left: 95%;
   margin-left: -3px;
   top: 2015px;
+  filter: brightness(30%);
+
 }
 /* Define the container for the falling images */
 .container {
@@ -230,34 +236,42 @@ body{
     transform: translateY(400px); /* Move down by 200 pixels (additional 100 pixels) */
   }
 }
-/*
-@keyframes show {
-  100% {
-    opacity: 0; /* Start with zero opacity (hidden) 
- 
-  }
-  0% {
-    opacity: 1; /* End with complete transparency (fully faded out) 
-  }
-  
+.api{
+  font-size: 100px;
+  position: relative;
+  top: 1700px;
+  left: 650px;
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
 }
-@keyframes drop {
-  0% {
-    transform: translateY(0); /* Start with no vertical movement 
-  }
-  100% {
-    transform: translateY(400px); /* Move down by 200 pixels (additional 100 pixels) 
-  }
+.down{
+/* P */
+position: relative;
+width: 730px;
+height: 153px;
+left: 379px;
+top: 1656px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 162%;
+/* or 39px */
+text-align: center;
+
+/* Colors/White */
+color: #FFFFFF;
+}
+.cir{
+  position: relative;
+  top: 2000px;
+}
+.glow {
+  border-radius: 50%; /* To create a circular shape */
+  box-shadow: 0 0 100px 20px rgba(255, 255, 255, 1); /* Adjust values for the desired glow effect */
+  /* The above box-shadow applies a yellow glow - you can adjust the color and intensity as needed */
 }
 
-.show-image{
-  position: absolute;
-  top: 350px;
-  animation: show 3s linear infinite;
-}
 
-.go-image{
-  animation: drop 1.5s linear infinite;
-  animation-delay: 4s;
-}
-*/
