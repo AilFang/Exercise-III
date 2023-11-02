@@ -1,64 +1,49 @@
 
 h1 {
-
-
-/* jamstack */
-
-position: absolute;
-width: 600px;
-height: 50px;
-left: 100px;
-top: 150px;
-
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 120px;
-line-height: 152px;
-/* identical to box height, or 115% */
-display: flex;
-align-items: flex-end;
-letter-spacing: -0.039em;
-
-/* Colors/Dark Gray */
-color: #151515;
-
-mix-blend-mode: normal;
+  position: absolute;
+  width: 600px;
+  height: 50px;
+  left: 100px;
+  top: 150px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 152px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.039em;
+  color: #151515;
+  mix-blend-mode: normal;
 }
 
 /* 101 */
 .number{
-position: absolute;
-width: 180px;
-height:200px;
-left: 610px;
-top: 0px;
-
-background-image: url('/images/trial.png');
-background-clip: text;
--webkit-background-clip: text;
-color: transparent;
-background-size: 100% 100%;
-
-
-
-font-family: 'Inter', ;
-font-style: normal;
-font-weight: 900;
-
-font-size: 120px;
-line-height: 152px;
-/* identical to box height, or 115% */
-display: flex;
-align-items: flex-end;
-letter-spacing: -0.039em;
-
-mix-blend-mode: normal;
-
+  position: absolute;
+  width: 180px;
+  height:200px;
+  left: 610px;
+  top: 0px;
+  background-image: url('/images/trial.png');
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100% 100%;
+  font-family: 'Inter', ;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 152px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.039em;
+  mix-blend-mode: normal;
 }
-/* The imgage before  */
+/* The imgage beside the Jamstack title  */
 .blur{
-    position:relative; left:650px; top:100px
+  position:relative; 
+  left:650px; 
+  top:100px;
 }
 
 .intro{
@@ -73,19 +58,18 @@ mix-blend-mode: normal;
  line-height: 195.5%;
 
 }
-/* P */
 
 .center-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    z-index: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  z-index: 1;
   }
 
 .reposition{
-   margin-bottom: 100px; 
-   position: relative; bottom: 550px;
+  margin-bottom: 100px; 
+  position: relative; bottom: 550px;
 }
 
 .center-word{
@@ -103,22 +87,19 @@ mix-blend-mode: normal;
 }
 
 .script{
-
-position: absolute;
-width: 578px;
-height: 105px;
-left: 468px;
-top: 1400px;
-
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 100;
-font-size: 18px;
-line-height: 195.5%;
-/* or 35px */
-text-align: center;
-letter-spacing: 0.005em;
-color: #FFFFFF;
+  position: absolute;
+  width: 578px;
+  height: 105px;
+  left: 468px;
+  top: 1400px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 195.5%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #FFFFFF;
 }
 
 .black{
@@ -149,8 +130,8 @@ color: #FFFFFF;
   margin-left: -3px;
   top: 2015px;
   filter: brightness(30%);
-
 }
+
 .vl3{
   border-left: 6px dotted lightgrey;
   height: 2205px;
@@ -159,8 +140,8 @@ color: #FFFFFF;
   margin-left: -3px;
   top: 2015px;
   filter: brightness(30%);
-
 }
+
 .vl4{
   border-left: 6px dotted lightgrey;
   height: 2205px;
@@ -169,8 +150,8 @@ color: #FFFFFF;
   margin-left: -3px;
   top: 2015px;
   filter: brightness(30%);
-
 }
+
 .vl5{
   border-left: 6px dotted lightgrey;
   height: 2205px;
@@ -179,8 +160,8 @@ color: #FFFFFF;
   margin-left: -3px;
   top: 2015px;
   filter: brightness(30%);
-
 }
+
 /* Define the container for the falling images */
 .container {
   position: absolute;
@@ -246,32 +227,44 @@ color: #FFFFFF;
   font-style: normal;
   font-weight: 900;
 }
-.down{
-/* P */
-position: relative;
-width: 730px;
-height: 153px;
-left: 379px;
-top: 1656px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 162%;
-/* or 39px */
-text-align: center;
-
-/* Colors/White */
-color: #FFFFFF;
+.api-p{
+  position: relative;
+  width: 730px;
+  height: 153px;
+  left: 379px;
+  top: 1656px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 162%;
+  text-align: center;
+  color: #FFFFFF;
 }
 .cir{
   position: relative;
   top: 2000px;
 }
 .glow {
-  border-radius: 50%; /* To create a circular shape */
-  box-shadow: 0 0 100px 20px rgba(255, 255, 255, 1); /* Adjust values for the desired glow effect */
-  /* The above box-shadow applies a yellow glow - you can adjust the color and intensity as needed */
+  border-radius: 50%; 
+  box-shadow: 0 0 100px 20px rgba(255, 255, 255, 1); 
 }
 
+.diagonal-spin {
+  position: relative;
+  animation: spin 4s linear infinite;
+}
 
+.diagonal-spin img {
+  height: 100%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    
+  }
+}
