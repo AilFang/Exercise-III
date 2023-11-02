@@ -202,7 +202,7 @@ h1 {
   animation: fall 1.5s linear infinite;
   animation-delay: .7s;
 }
-/* Define the falling animation */
+
 @keyframes fall {
   0% {
     opacity: 0; /* Start with zero opacity (hidden) */
@@ -259,12 +259,12 @@ h1 {
   height: 100%;
 }
 
+/* keyframs for the circle movement */
 @keyframes spin {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
-    
   }
 }
