@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/vercel": "^5.2.0",
     "@react-three/fiber": "^8.15.11",
     "@types/three": "^0.158.3",
     "astro": "^3.1.0",
