@@ -17,7 +17,7 @@ import { Image } from 'astro:assets';
 	
 	<body>
 		<section class="hero">
-			<Image class="blur" src="/images/Hero-graphic.png" alt="A bird." width="800" height="1000"/>
+			<Image class="blur" src="/images/Hero-graphic.png" alt="blocks" width="800" height="1000"/>
 			<h1>jamstack</h1>
 			<h1 class="number"> 101</h1>
 			<div class="intro">
@@ -32,6 +32,7 @@ import { Image } from 'astro:assets';
 			<p class="script center-word">Statically generated pages are brought to life with client-side JavaScript libraries and frameworks, such as Algolia and Next.js.</p>
 		</section>
 		<div class="black">
+			<section>
 			<div class = "vl1 logo-border">
 				<Image class="center-img falling-image lg1" src="/images/react.svg" alt="part 2" width="300" height="300"/>
 				<Image class="center-img falling-image lg2 " src="/images/svelte.svg" alt="part 2" width="300" height="300"/>
@@ -49,6 +50,7 @@ import { Image } from 'astro:assets';
 				<Image class="center-img falling-image lg7 " src="/images/svelte.svg" alt="part 2" width="300" height="300"/>
 			</div>
 			<div class="vl5 logo-border"></div>
+			</section>
 			<section>
 			<h2 class="api center-word">api</h2>
 			<p class="api-p center-word">At build time, a Jamstack website uses data from one or more APIs to generate markup. These APIs can be a headless CMS like Prismic, a database like Supabase, or even a local JSON file!</p>
@@ -58,6 +60,12 @@ import { Image } from 'astro:assets';
 				<Image class="glow2 center-img" src="/images/glow2.svg" alt="color-glow" width="1500" height="1500" aria-hidden="true"/>
 			</div>
 		</div>
+		<section>
+			<h2>markup</h2>
+			<p>When ready for deployment, a static-site generator such as Astro or Next.js is used to compile the website. The end result is a collection of pre-rendered HTML pages that can be delivered lightning-fast over a CDN like Vercel’s Edge Network.</p>
+			<Image class="" src="/images/wall-of-block.svg" alt="wall-of-block" width="1500" height="1500" aria-hidden="true"/>
+			<Image class="blur" src="/images/Hero-graphic.png" alt="blocks" width="800" height="1000"/>
+		</section>
 		
 	</body>
 	
