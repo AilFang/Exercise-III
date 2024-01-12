@@ -59,14 +59,39 @@ import { Image } from 'astro:assets';
 				<Image class=" center-img glow  " src="/images/circle.svg" alt="part 2" width="1000" height="1000"/>
 				<Image class="glow2 center-img" src="/images/glow2.svg" alt="color-glow" width="1500" height="1500" aria-hidden="true"/>
 			</div>
+			
 		</div>
-		<section>
-			<h2>markup</h2>
-			<p>When ready for deployment, a static-site generator such as Astro or Next.js is used to compile the website. The end result is a collection of pre-rendered HTML pages that can be delivered lightning-fast over a CDN like Vercel’s Edge Network.</p>
-			<Image class="" src="/images/wall-of-block.svg" alt="wall-of-block" width="1500" height="1500" aria-hidden="true"/>
-			<Image class="blur" src="/images/Hero-graphic.png" alt="blocks" width="800" height="1000"/>
-		</section>
+		<div class="path" ></div>
+		<div class="blocks">
+			<h2 class="markup">markup</h2>
+			<p class="pmark">When ready for deployment, a static-site generator such as Astro or Next.js is used to compile the website. The end result is a collection of pre-rendered HTML pages that can be delivered lightning-fast over a CDN like Vercel’s Edge Network.</p>
+			<Image class="blur2" src="/images/block-graphic.png" alt="blocks" width="800" height="1000"/>
+			<Image class="wall" src="/images/wall.svg" alt="mk" width="1500" height="800"/>
+		</div>
+		<div class="score">
+			<img class="center-img scorebg" src="/images/scorebg.png" alt="mk"/>
+			<p class="audit-p">top audit scores</p>
+			<section class="trial">
+			<svg>
+				<circle class="score1 ring-glow" cx="60%" cy="50%" r="106" />
+			</svg>
+			<svg>
+				<circle class="score1 ring-glow" cx="60%" cy="50%" r="106" />
+			</svg>
+			<svg>
+				<circle class="score1 ring-glow" cx="60%" cy="50%" r="106" />
+			</svg>
+			<svg>
+				<defs>
+				<filter id="shadow2">
+					<feDropShadow dx="0" dy="0" stdDeviation="0.5" flood-color="white" />
+				</filter>
+			</defs>
+				<circle class="score1 ring-glow" cx="60%" cy="50%" r="106" style="filter:url(#shadow2);" />
+				
+			</svg>
+			</section>
+		</div>
 		
 	</body>
-	
 </html> 

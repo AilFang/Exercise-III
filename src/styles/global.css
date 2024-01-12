@@ -113,8 +113,6 @@ h1 {
   margin-bottom: -10px;
   margin-right: -10px;
   margin-top: -1450px;
-  border-bottom-left-radius: 10% 3%;
-  border-bottom-right-radius: 100% 5%;
   z-index: 1;
 }
 
@@ -234,7 +232,7 @@ h1 {
 }
 .glow {
   border-radius: 50%;
-  box-shadow: 0 0 100px 20px rgba(255, 255, 255, 1);
+  box-shadow: 0 0 100px 20px rgba(255, 255, 255, 4);
 }
 
 .diagonal-spin {
@@ -264,4 +262,124 @@ h1 {
   position: absolute;
   top: -30%;
   right: 8%;
+}
+
+.blocks {
+  position: relative;
+  overflow-x: hidden;
+  top: 30%;
+  z-index: 3;
+  height: 2200px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.blur2 {
+  position: absolute;
+  top: 28%;
+  left: 54%;
+  overflow-x: hidden;
+}
+
+.markup {
+  color: var(--colors-dark-gray, #151515);
+  font-family: Inter, sans-serif;
+  font-size: 133px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 152.5px; /* 114.662% */
+  letter-spacing: -5.187px;
+  position: absolute;
+  top: 23%;
+  left: 10%;
+}
+
+.pmark {
+  color: #414141;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162%; /* 38.88px */
+  width: 480px;
+  position: absolute;
+  top: 38%;
+  left: 10%;
+}
+
+.wall {
+  position: absolute;
+  top: 63%;
+}
+
+.score {
+  position: relative;
+  top: -302px;
+  background-color: #151515;
+  margin-left: -10px;
+  margin-bottom: -10px;
+  margin-right: -10px;
+  z-index: 5;
+}
+.scorebg {
+  position: relative;
+  top: -90px;
+  z-index: 4;
+}
+
+.audit-p {
+  position: relative;
+  font-family: Inter, sans-serif;
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 92px;
+  letter-spacing: -0.039em;
+  text-align: center;
+  z-index: 5;
+  color: rgba(239, 255, 226, 1);
+  top: -1390px;
+}
+
+svg {
+  height: 350px;
+  width: 280px;
+}
+
+circle {
+  fill: transparent;
+  stroke: rgba(239, 255, 226, 1);
+  stroke-width: 4px;
+  stroke-dasharray: 666;
+  stroke-dashoffset: 666;
+  stroke-linecap: round;
+  transform: rotate(15deg);
+  animation: clock-animation 5s linear;
+  animation-fill-mode: forwards;
+}
+@keyframes clock-animation {
+  0% {
+    stroke-dashoffset: 424;
+  }
+  100% {
+    stroke-dashoffset: 34;
+  }
+}
+
+.ring-glow {
+  border-radius: 50%;
+  filter: drop-shadow(2px 2px 100px 20px rgba(83, 251, 42, 1));
+}
+
+.trial {
+  position: relative;
+  z-index: 6;
+  left: 13%;
+  top: -1450px;
+}
+
+.path {
+  background: transparent;
+  height: 200px;
+  /* clip-path: <path d="M0 0H1512V142.667C1512 142.667 1439 165.822 1302.5 165.822C1166 165.822 1036 104.946 821 104.946C606 104.946 484.5 214 304.5 214C124.5 214 0 142.667 0 142.667V0Z" fill="#151515"/>;
+  border: dashed 5px gold;  */
 }
