@@ -1,8 +1,9 @@
-# Astro Starter Kit: Minimal
+# Monogram Excersise III
 
-```sh
-npm create astro@latest -- --template minimal
-```
+This is my first project with Astro, and it has been a wonderful experience to learn and experiment with coding. This is how my first project turned out!
+
+Check it out with this preview!
+[design](https://exercise-iii-git-main-ailfangs-projects.vercel.app/)
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
@@ -45,5 +46,3 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-# Exercise-III
-# Exercise-III
