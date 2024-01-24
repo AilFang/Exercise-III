@@ -27,6 +27,7 @@ h1 {
 .intro {
   padding-left: 40px;
   max-width: 549px;
+  height: 810px;
 }
 
 .intro p {
@@ -58,20 +59,18 @@ h1 {
   }
 }
 
-.javascript-section {
-  margin-top: 70px;
-}
 .center-img {
   position: relative;
   display: block;
-  margin-inline: auto;
+  margin: 0 auto;
   z-index: 2;
 }
 
 .reposition {
-  margin-bottom: 100px;
   position: relative;
-  bottom: 550px;
+  display: block;
+  margin: 0 auto;
+  top: -850px;
 }
 
 .center-word {
@@ -79,22 +78,33 @@ h1 {
   z-index: 3;
 }
 
+.java-section {
+  position: relative;
+}
 .java {
   font-family: "Inter", sans-serif;
   font-size: 130px;
-  bottom: 300px;
-  position: relative;
-  bottom: 1800px;
   color: white;
   font-weight: 900;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 75px;
 }
 
+.square {
+  position: relative;
+  top: -450px;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.script-box {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
 .script {
-  position: absolute;
-  width: 578px;
-  height: 105px;
-  left: 30%;
-  top: 1400px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -103,17 +113,31 @@ h1 {
   text-align: center;
   letter-spacing: 0.005em;
   color: #ffffff;
+  z-index: 3;
 }
 
 .black {
   position: relative;
-  background-color: black;
-  height: 2900px;
+  background-color: rgba(21, 21, 21, 1);
+  height: 2500px;
   margin-left: -10px;
   margin-bottom: -10px;
   margin-right: -10px;
   margin-top: -1450px;
-  z-index: 1;
+  z-index: -2;
+}
+
+.box {
+  margin-left: -10px;
+  margin-right: -10px;
+  overflow-x: hidden;
+}
+.black-bottom {
+  width: 103%;
+  position: relative;
+  z-index: -3;
+  margin-top: -120px;
+  margin-left: -10px;
 }
 
 .logo-border {
@@ -267,16 +291,16 @@ h1 {
 .blocks {
   position: relative;
   overflow-x: hidden;
-  top: 30%;
+  top: 10%;
   z-index: 3;
-  height: 2200px;
+  height: 1900px;
   margin-left: -10px;
   margin-right: -10px;
 }
 
 .blur2 {
   position: absolute;
-  top: 28%;
+  top: 18%;
   left: 54%;
   overflow-x: hidden;
 }
@@ -290,7 +314,7 @@ h1 {
   line-height: 152.5px; /* 114.662% */
   letter-spacing: -5.187px;
   position: absolute;
-  top: 23%;
+  top: 13%;
   left: 10%;
 }
 
@@ -300,16 +324,16 @@ h1 {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 162%; /* 38.88px */
+  line-height: 162%;
   width: 480px;
   position: absolute;
-  top: 38%;
+  top: 28%;
   left: 10%;
 }
 
 .wall {
   position: absolute;
-  top: 63%;
+  top: 72%;
 }
 
 .score {
@@ -373,7 +397,7 @@ circle {
 .trial {
   position: relative;
   z-index: 6;
-  left: 13%;
+  margin-left: 13%;
   top: -1450px;
 }
 
@@ -382,4 +406,17 @@ circle {
   height: 200px;
   /* clip-path: <path d="M0 0H1512V142.667C1512 142.667 1439 165.822 1302.5 165.822C1166 165.822 1036 104.946 821 104.946C606 104.946 484.5 214 304.5 214C124.5 214 0 142.667 0 142.667V0Z" fill="#151515"/>;
   border: dashed 5px gold;  */
+}
+
+.textbox {
+  width: 756px;
+  margin-left: 13%;
+  margin-top: 7%;
+  color: #c7c7c7;
+  font-family: Inter, sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162%;
+  mix-blend-mode: color-dodge;
 }
